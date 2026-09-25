@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 
 
-// Next.js loads this stylesheet as a side effect; its type declaration is provided by the framework.
-// @ts-expect-error TypeScript may not resolve CSS side-effect imports in some configurations.
 import "./globals.css";
 
 import Navbar from "../components/Navbar";
